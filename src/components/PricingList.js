@@ -7,7 +7,9 @@ class PricingList extends Component {
     render() {
         return (
             <div className={this.props.className}>
-                <div id="heading">{this.props.name}</div>
+                <div id="heading">{this.props.name}
+                <p>{this.props.popular}</p>
+                </div>
                 <div id="content">
                     <p><span id="cost">${this.props.cost}</span><span id="month">/mo</span></p>
                     <p>{this.props.users}</p>
