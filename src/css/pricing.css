@@ -1,6 +1,5 @@
 .App {
     text-align: center;
-    border: 2px solid blue;
 }
 
 .pricing {
@@ -11,6 +10,49 @@
 .info {
     display: inline-block;
     color: #9E9E9E;
-    border: 2px solid black;
     width: 500px;
+    font-size: 20px;
+    margin: 20px;
+}
+
+.free {
+    position: absolute;
+    border: 1px solid #EEEEEE;
+    width: 300px;
+}
+
+#pricing-list {
+    display: flex;
+    justify-content: center;
+}
+
+#free-heading {
+    background-color: #EEEEEE;
+    padding: 10px;
+    font-weight: 500;
+}
+
+.sign-up-for-free {
+    color: #458DDA;
+    border: 1px solid #458DDA;
+    background-color: white;
+    cursor: pointer;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    width: 100%;
+}
+
+#free-content {
+   padding: 5px;
+    
+}
+
+#cost {
+    font-weight: 500;
+    font-size: 30px;
+}
+
+#month {
+    color: #7C7C7C;
+    font-weight: 500;
 }
