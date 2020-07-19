@@ -1,0 +1,16 @@
+.App {
+    text-align: center;
+    border: 2px solid blue;
+}
+
+.pricing {
+    font-size: 30px;
+    color: #0E0E0E;
+}
+
+.info {
+    display: inline-block;
+    color: #9E9E9E;
+    border: 2px solid black;
+    width: 500px;
+}
