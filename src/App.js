@@ -3,14 +3,14 @@ import Info from './components/Info';
 import './css/pricing.css';
 import Header from './components/Header';
 import Footer from './components/Footer';
-import Pricing from './components/Pricing';
+import Subscription from './components/Subscription';
 
 function App() {
   return (
     <div className="App">
       <Header />
       <Info />
-      <Pricing />
+      <Subscription />
       <Footer />
     </div>
   );

@@ -1,13 +1,13 @@
 import React, { Component } from 'react';
 
-class PricingList extends Component {
+class SubscriptionList extends Component {
     render() {
         return (
             <div className={this.props.className}>
                 <div id="heading">{this.props.name}
                 <li>{this.props.popular}</li>
                 </div>
-                <div id="content">
+                <div id="subscription-list-content">
                     <p><span id="cost">${this.props.cost}</span><span id="month">/mo</span></p>
                     <li>{this.props.users}</li>
                     <li>{this.props.gb}</li>
@@ -20,4 +20,4 @@ class PricingList extends Component {
     }
 }
 
-export default PricingList;
+export default SubscriptionList;

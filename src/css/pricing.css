@@ -21,7 +21,7 @@
     border-radius: 5px;
 }
 
-#pricing {
+#subscription {
     display: flex;
     justify-content: center;
     align-items: flex-end;
@@ -64,10 +64,14 @@
     color: white;
 }
 
-.free #content,.enterprise #content, .pro #content {
+#subscription-list-content {
     padding: 5px;
     padding-top: 0px;
     font-size: 10px;
+}
+
+#subscription-list-content li {
+    padding: 2px;
 }
 
 li {
