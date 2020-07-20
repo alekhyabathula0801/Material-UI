@@ -4,7 +4,7 @@ class Header extends Component {
     render() {
         return (
             <div className="header">
-                <div id="company"><h6>Company name</h6></div>
+                <div id="header-company"><h6>Company name</h6></div>
                 <div id="menu">
                     <a href="#">FEATURES</a>
                     <a href="#">ENTERPRISE</a>
