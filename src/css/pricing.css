@@ -18,7 +18,7 @@
 .free,.enterprise,.pro {
     border: 1px solid #EEEEEE;
     width: 300px;
-    margin: 5px;
+    margin: 15px;
     border-radius: 5px;
 }
 
@@ -44,7 +44,7 @@
     color: #8F8F8F;
 }
 
-.free button, .enterprise button {
+.free button, .enterprise button, .pro button {
     color: #458DDA;
     border: 1px solid #458DDA;
     background-color: white;
@@ -58,21 +58,7 @@
     margin-top: 10px;
 }
 
-.pro button{
-    color: white;
-    border: 1px solid #458DDA;
-    background-color: #458DDA;
-    cursor: pointer;
-    padding-top: 5px;
-    padding-bottom: 5px;
-    width: 100%;
-    outline: none;
-    border-radius: 4px;
-    font-weight: 500;
-    margin-top: 10px;
-}
-
-.free button:hover , .enterprise button:hover {
+.free button:hover , .enterprise button:hover, .pro button:hover {
     background-color: #1976D2;
     color: white;
 }
