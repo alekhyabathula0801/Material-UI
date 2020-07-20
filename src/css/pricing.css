@@ -35,10 +35,6 @@
     font-size: 18px;
 }
 
-.free #heading p,.enterprise #heading p{
-    font-size: 0px;
-}
-
 .pro #heading li {
     font-size: 10px;
     font-weight: normal;
@@ -86,6 +82,15 @@ li {
 #month {
     color: #7C7C7C;
     font-weight: 500;
+}
+
+#pro-star {
+    display: flex;
+    justify-content: flex-end;
+}
+
+.pro #heading {
+    padding-top: 0px;
 }
 
 .header {
