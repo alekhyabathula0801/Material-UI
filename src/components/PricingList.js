@@ -5,14 +5,14 @@ class PricingList extends Component {
         return (
             <div className={this.props.className}>
                 <div id="heading">{this.props.name}
-                <p>{this.props.popular}</p>
+                <li>{this.props.popular}</li>
                 </div>
                 <div id="content">
                     <p><span id="cost">${this.props.cost}</span><span id="month">/mo</span></p>
-                    <p>{this.props.users}</p>
-                    <p>{this.props.gb}</p>
-                    <p>{this.props.help}</p>
-                    <p>{this.props.support}</p>
+                    <li>{this.props.users}</li>
+                    <li>{this.props.gb}</li>
+                    <li>{this.props.help}</li>
+                    <li>{this.props.support}</li>
                     <button>{this.props.buttonText}</button>
                 </div>
             </div>

@@ -5,6 +5,7 @@ import Free from './components/Free';
 import Enterprise from './components/Enterprise';
 import Pro from './components/Pro';
 import Header from './components/Header';
+import Footer from './components/Footer';
 
 function App() {
   return (
@@ -14,8 +15,9 @@ function App() {
       <div id="pricing-list">
         <Free />
         <Pro />
-        <Enterprise/>
+        <Enterprise />
       </div>
+      <Footer />
     </div>
   );
 }
