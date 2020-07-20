@@ -5,7 +5,7 @@ import PricingList from './PricingList';
 class Pricing extends Component {
     render() {
         return (
-            <div id="pricing-list">
+            <div id="pricing">
                 <PricingList className="free" users="10 users included" gb="2 GB of storage" support="Email support"
                     help="Help center access" name="Free" cost="0" buttonText="SIGN UP FOR FREE" />
                 <PricingList className="pro" users="20 users included" gb="10 GB of storage" support="Priority email support"

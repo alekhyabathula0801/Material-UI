@@ -6,7 +6,7 @@ class FooterList extends Component {
             <li>{content}</li>
         );
         return (
-            <div id="list-name">
+            <div id="footer-list-content">
                 <h6>{this.props.name}</h6>
                 {lists}
             </div>

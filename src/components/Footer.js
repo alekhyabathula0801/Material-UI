@@ -9,10 +9,15 @@ class Footer extends Component {
         const legal = ["Privacy policy", "Terms of use"];
         return (
             <div className="footer">
-                <FooterList name="Company" list={company} />
-                <FooterList name="Features" list={features} />
-                <FooterList name="Resources" list={resources} />
-                <FooterList name="Legal" list={legal} />
+                <div id="footer-list">
+                    <FooterList name="Company" list={company} />
+                    <FooterList name="Features" list={features} />
+                    <FooterList name="Resources" list={resources} />
+                    <FooterList name="Legal" list={legal} />
+                </div>
+                <div id="footer-copyright">
+                    Copyright &#169; Your website 2020.
+                </div>
             </div>
         );
     }
