@@ -8,9 +8,11 @@ class Header extends Component {
                 <div id="header-company"><h6>Company name</h6></div>
                 <div id="header-menu">
                     <Link to="/subscription">
-                    <a href="#">SUBSCRIPTION</a>
+                    <a>SUBSCRIPTION</a>
                     </Link>
-                    <a href="#">ENTERPRISE</a>
+                    <Link to="/user-list">
+                    <a href="#">USER</a>
+                    </Link>
                     <a href="#">SUPPORT</a>
                     <button id="login">LOGIN</button>
                 </div>
