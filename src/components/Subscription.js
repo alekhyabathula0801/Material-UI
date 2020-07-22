@@ -3,18 +3,50 @@ import SubscriptionList from './SubscriptionList';
 import Info from './Info';
 
 class Subscription extends Component {
+
+    state = {
+        subscriptionList: [
+            {
+                name: "Free",
+                className: "free",
+                users: "10",
+                gb: "2",
+                support: "Email support",
+                cost: "0",
+                buttonText: "SIGN UP FOR FREE"
+            },
+            {
+                name: "Pro",
+                className: "pro",
+                users: "20",
+                gb: "10",
+                support: "Priority email support",
+                cost: "15",
+                buttonText: "GET STARTED",
+                popular: "Most popular"
+            },
+            {
+                name: "Enterprise",
+                className: "enterprise",
+                users: "50",
+                gb: "30",
+                support: "Phone & Email support",
+                cost: "30",
+                buttonText: "CONTACT US"
+            }
+        ]
+    }
+
     render() {
+        var subscriptionList = this.state.subscriptionList.map(content =>
+            <SubscriptionList subscription={content} />
+        )
         return (
             <div>
-            <Info/>
-            <div id="subscription">
-                <SubscriptionList className="free" users="10" gb="2" support="Email support" name="Free" 
-                cost="0" buttonText="SIGN UP FOR FREE" />
-                <SubscriptionList className="pro" users="20" gb="10" support="Priority email support"
-                name="Pro" popular="Most popular" cost="15" buttonText="GET STARTED" />
-                <SubscriptionList className="enterprise" name="Enterprise" users="50" cost="30" gb="30" 
-                support="Phone & Email support" buttonText="CONTACT US" />
-            </div>
+                <Info />
+                <div id="subscription">
+                    {subscriptionList}
+                </div>
             </div>
         );
     }
