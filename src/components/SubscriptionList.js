@@ -17,7 +17,7 @@ class SubscriptionList extends Component {
                     <p><span id="cost">${this.props.cost}</span><span id="month">/mo</span></p>
                     <li>{this.props.users} users included</li>
                     <li>{this.props.gb} GB of storage</li>
-                    <li>"Help center access"</li>
+                    <li>Help center access</li>
                     <li>{this.props.support}</li>
                     <button>{this.props.buttonText}</button>
                 </div>

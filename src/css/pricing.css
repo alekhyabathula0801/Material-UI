@@ -19,13 +19,13 @@
     width: 220px;
     margin: 15px;
     border-radius: 5px;
+    margin-bottom: 30px;
 }
 
 #subscription {
     display: flex;
     justify-content: center;
     align-items: flex-end;
-    margin-bottom: 30px;
 }
 
 .free #heading,.enterprise #heading, .pro #heading{
@@ -130,6 +130,13 @@ li {
 
 #header-company {
     cursor: pointer;
+}
+
+.footer {
+    height: 200px;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
 }
 
 #footer-list {
