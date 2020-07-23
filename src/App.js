@@ -12,8 +12,10 @@ class App extends Component {
       <div className="App">
         <Router>
           <Header />
+          <div className="main-container">
           <Route path="/subscription" component={Subscription} />
           <Route path="/user-list" component={UserList} />
+          </div>
           <Footer />
         </Router>
       </div>

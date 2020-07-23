@@ -49,7 +49,7 @@ class Subscription extends Component {
       <SubscriptionList subscription={content} />
     ));
     return (
-      <div>
+      <div class="subscription-details">
         <Info />
         <div id="subscription">{subscriptionList}</div>
       </div>
