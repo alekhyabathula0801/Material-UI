@@ -1,22 +1,24 @@
-import React from 'react';
-import './css/pricing.css';
-import Header from './components/Header.jsx';
-import Footer from './components/Footer.jsx';
-import Subscription from './components/Subscription.jsx';
-import { BrowserRouter as Router, Route } from 'react-router-dom';
-import UserList from './components/UserList.jsx';
+import React, { Component } from "react";
+import "./css/pricing.css";
+import Header from "./components/Header.jsx";
+import Footer from "./components/Footer.jsx";
+import Subscription from "./components/Subscription.jsx";
+import { BrowserRouter as Router, Route } from "react-router-dom";
+import UserList from "./components/UserList.jsx";
 
-function App() {
-  return (
-    <Router>
+class App extends Component {
+  render() {
+    return (
       <div className="App">
-        <Header />
-        <Route path="/subscription" component={Subscription} />
-        <Route path="/user-list" component={UserList} />
-        <Footer />
+        <Router>
+          <Header />
+          <Route path="/subscription" component={Subscription} />
+          <Route path="/user-list" component={UserList} />
+          <Footer />
+        </Router>
       </div>
-    </Router>
-  );
+    );
+  }
 }
 
 export default App;

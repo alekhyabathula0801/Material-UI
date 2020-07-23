@@ -24,6 +24,14 @@ class UserList extends Component {
         ]
     }
 
+    componentDidMount() {
+        console.log("User list shown");
+    }
+
+    componentWillUnmount() {
+        console.log("User list is unmounted");
+    }
+
     render() {
         var list = this.state.usersData.map(row => {
             return <tr>

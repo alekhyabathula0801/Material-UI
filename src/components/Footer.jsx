@@ -2,6 +2,11 @@ import React, { Component } from 'react';
 import FooterList from './FooterList.jsx';
 
 class Footer extends Component {
+
+    componentDidMount() {
+        console.log("Footer list is shown");
+    }
+
     render() {
         var footerContent = [
             {
@@ -21,7 +26,7 @@ class Footer extends Component {
                 list: ["Privacy policy", "Terms of use"]
             }
         ]
-        var footerContent = footerContent.map(content =>
+        footerContent = footerContent.map(content =>
             <FooterList name={content.title} list={content.list} />
         )
         return (
