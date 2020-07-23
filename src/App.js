@@ -1,10 +1,10 @@
 import React from 'react';
 import './css/pricing.css';
-import Header from './components/Header';
-import Footer from './components/Footer';
-import Subscription from './components/Subscription';
+import Header from './components/Header.jsx';
+import Footer from './components/Footer.jsx';
+import Subscription from './components/Subscription.jsx';
 import { BrowserRouter as Router, Route } from 'react-router-dom';
-import UserList from './components/UserList';
+import UserList from './components/UserList.jsx';
 
 function App() {
   return (

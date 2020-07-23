@@ -1,5 +1,5 @@
 import React, { Component } from 'react';
-import FooterList from './FooterList';
+import FooterList from './FooterList.jsx';
 
 class Footer extends Component {
     render() {

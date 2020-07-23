@@ -1,193 +1,202 @@
 .App {
-    text-align: center;
+  text-align: center;
 }
 
 .info-pricing {
-    font-size: 30px;
-    color: #0E0E0E;
+  font-size: 30px;
+  color: #0e0e0e;
 }
 
 .info {
-    display: inline-block;
-    color: #9E9E9E;
-    width: 500px;
-    font-size: 15px;
+  display: inline-block;
+  color: #9e9e9e;
+  width: 500px;
+  font-size: 15px;
 }
 
-.free,.enterprise,.pro {
-    border: 1px solid #EEEEEE;
-    width: 220px;
-    margin: 15px;
-    border-radius: 5px;
-    margin-bottom: 30px;
+.free,
+.enterprise,
+.pro {
+  border: 1px solid #eeeeee;
+  width: 220px;
+  margin: 15px;
+  border-radius: 5px;
+  margin-bottom: 30px;
 }
 
 #subscription {
-    display: flex;
-    justify-content: center;
-    align-items: flex-end;
+  display: flex;
+  justify-content: center;
+  align-items: flex-end;
 }
 
-.free #heading,.enterprise #heading, .pro #heading{
-    background-color: #EEEEEE;
-    padding: 12px;
-    font-weight: 500;
-    font-size: 18px;
+.free #heading,
+.enterprise #heading,
+.pro #heading {
+  background-color: #eeeeee;
+  padding: 12px;
+  font-weight: 500;
+  font-size: 18px;
 }
 
 .pro #heading li {
-    font-size: 10px;
-    font-weight: normal;
-    color: #8F8F8F;
+  font-size: 10px;
+  font-weight: normal;
+  color: #8f8f8f;
 }
 
-.free button, .enterprise button, .pro button {
-    color: #458DDA;
-    border: 1px solid #458DDA;
-    background-color: white;
-    cursor: pointer;
-    padding-top: 5px;
-    padding-bottom: 5px;
-    width: 100%;
-    outline: none;
-    border-radius: 4px;
-    font-weight: 500;
-    margin-top: 15px;
+.free button,
+.enterprise button,
+.pro button {
+  color: #458dda;
+  border: 1px solid #458dda;
+  background-color: white;
+  cursor: pointer;
+  padding-top: 5px;
+  padding-bottom: 5px;
+  width: 100%;
+  outline: none;
+  border-radius: 4px;
+  font-weight: 500;
+  margin-top: 15px;
 }
 
-.free button:hover , .enterprise button:hover, .pro button:hover {
-    background-color: #1976D2;
-    color: white;
+.free button:hover,
+.enterprise button:hover,
+.pro button:hover {
+  background-color: #1976d2;
+  color: white;
 }
 
 #subscription-list-content {
-    padding: 5px;
-    padding-top: 0px;
-    font-size: 10px;
+  padding: 5px;
+  padding-top: 0px;
+  font-size: 10px;
 }
 
 #subscription-list-content li {
-    padding: 2px;
+  padding: 2px;
 }
 
 li {
-    list-style-type: none;
+  list-style-type: none;
 }
 
 #cost {
-    font-weight: 500;
-    font-size: 30px;
+  font-weight: 500;
+  font-size: 30px;
 }
 
 #month {
-    color: #7C7C7C;
-    font-weight: 500;
+  color: #7c7c7c;
+  font-weight: 500;
 }
 
 #pro-star {
-    display: flex;
-    justify-content: flex-end;
+  display: flex;
+  justify-content: flex-end;
 }
 
 .pro #heading {
-    padding-top: 0px;
+  padding-top: 0px;
 }
 
 .header {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    background-color: #F5F5F5;
-    height: 10px;
-    font-size: 10px;
-    padding: 20px;
-    margin-bottom: 30px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #f5f5f5;
+  height: 10px;
+  font-size: 10px;
+  padding: 20px;
+  margin-bottom: 30px;
 }
 
 #header-menu {
-    display: flex;
-    justify-content: space-between;
-    width: 350px;
-    align-items: center;
+  display: flex;
+  justify-content: space-between;
+  width: 350px;
+  align-items: center;
 }
 
 #header-menu a {
-    text-decoration: none;
-    color: #000;
-    font-weight: 500;
+  text-decoration: none;
+  color: #000;
+  font-weight: 500;
 }
 
 #login {
-    color: #568FD8;
-    border: 1px solid #568FD8;
-    border-radius: 3px;
-    padding-left: 10px;
-    padding-right: 10px;
-    padding-top: 5px;
-    padding-bottom: 5px;
-    cursor: pointer;
-    width: 80px;
-    outline: none;
+  color: #568fd8;
+  border: 1px solid #568fd8;
+  border-radius: 3px;
+  padding-left: 10px;
+  padding-right: 10px;
+  padding-top: 5px;
+  padding-bottom: 5px;
+  cursor: pointer;
+  width: 80px;
+  outline: none;
 }
 
 #header-company {
-    cursor: pointer;
+  cursor: pointer;
 }
 
 .footer {
-    height: 200px;
-    position: fixed;
-    bottom: 0;
-    width: 100%;
+  height: 200px;
+  position: fixed;
+  bottom: 0;
+  width: 100%;
 }
 
 #footer-list {
-    border-top: 1px solid silver;
-    text-align: left;
-    padding: 5px;
-    display: flex;
-    justify-content: center;
-    padding-top: 30px;
+  border-top: 1px solid silver;
+  text-align: left;
+  padding: 5px;
+  display: flex;
+  justify-content: center;
+  padding-top: 30px;
 }
 
 h6 {
-    margin: 0px;
-    margin-bottom: 5px;
+  margin: 0px;
+  margin-bottom: 5px;
 }
 
 #footer-list-content {
-    width: 100px;
-    margin-right: 100px;
+  width: 100px;
+  margin-right: 100px;
 }
 
 #footer-list-content li {
-    color: #747474;
-    font-size: 10px;
+  color: #747474;
+  font-size: 10px;
 }
 
 #footer-copyright {
-    color: #747474;
-    font-size: 10px;
-    padding-top: 5px;
+  color: #747474;
+  font-size: 10px;
+  padding-top: 5px;
 }
 
 #table-div {
-    width: 80%;
-    display: inline-block;
-}
- 
-table {
-    font-size: 10px;
-    border-collapse: collapse;
-    width: 100%;
-    margin-top: 20px;
+  width: 80%;
+  display: inline-block;
 }
 
-th, td {
-    text-align: left;
-    padding: 5px;
+table {
+  font-size: 10px;
+  border-collapse: collapse;
+  width: 100%;
+  margin-top: 20px;
+}
+
+th,
+td {
+  text-align: left;
+  padding: 5px;
 }
 
 tbody tr {
-    border: 1px solid gray;
+  border: 1px solid gray;
 }

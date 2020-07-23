@@ -1,6 +1,6 @@
 import React, { Component } from 'react';
-import SubscriptionList from './SubscriptionList';
-import Info from './Info';
+import SubscriptionList from './SubscriptionList.jsx';
+import Info from './Info.jsx';
 
 class Subscription extends Component {
 

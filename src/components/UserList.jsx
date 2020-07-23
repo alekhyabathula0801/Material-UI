@@ -35,7 +35,7 @@ class UserList extends Component {
             </tr>
         }
         );
-        var tableHeading = ["Name", "Email", "status", "Role", "Last Login", "Permission", ""]
+        var tableHeading = ["Name", "Email", "Status", "Role", "Last Login", "Permission", ""]
         var heading = tableHeading.map(content =>
             <th>{content}</th>
         )
